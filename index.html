@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about_he">About he</a>
+            <a href="#albumes">Albumes</a>
+            <a href="#words">Words</a>
+        </nav>
+        <section class="full" id="home">
+            <img class="bg-tim" src="./img/tim/tim.jpg">
+                <div class="AlignVert">
+                    <div class="tableCell">
+                        <h1>The Avicii Memory Board</h1>
+                        <h3>In loving memory</h3>
+                        <p>1989.09.08 - 2018.04.20</p>
+                    </div>
+                </div>
+            <img class="logo" src="http://avicii.com/wp-content/themes/aviciiboard/assets/img/logo.svg"alt="The Stories">
+        </section>
+    </header>
+    <main>
+        <section class="container about-he portfolio" id="about_he">
+            <div class="phrases">
+                <p>Tim created music that brought people together with timeless memories from all over the world.</p>
+                <p>We created this space so you could share your memories with all of us and let the world know what Avicii meant to you.</p>
+                <p>His music and your memories are forever.</p>
+            </div>
+            <div class="container-about-he">
+                <div class="container-text" >
+                    <h3><span>1</span>The Best DJ</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                        velit doloribus laboriosam ut.</p>
+                    <h3><span>2</span>The Best Composer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                        velit doloribus laboriosam ut.</p>
+                </div>
+                <img src="./img/tim/avicii-tim-album-portrait.webp" alt="" class="image-about-us">
+
+            </div>
+        </section>
+        <section class="container" id="albumes" >
+                <h2 class="title">Albumes</h2>
+                <div class="galery-port">
+                    <div class="image-port">
+                        <img src="./img/albums/avici.jpg" alt="">
+                        <div class="hover-galery">
+                            <h3>AVĪCI (01)</h3>
+                            <img onclick="playMusicAvici()" src="./img/icons/boton-de-play.png" id="album-avici" alt="">
+                            <h4 id="nameSongAvici"></h4>
+                        </div>
+                        
+                    </div>
+                    <div class="image-port">
+                        <img src="./img/albums/avicii-by-avicii.jpg" alt="">
+                        <div class="hover-galery">
+                            <h3>True (Avicii By Avicii)</h3>
+                            <img onclick="playMusicAviciiByAvicii()" src="./img/icons/boton-de-play.png" id="album-AviciiByAvicii" alt="Play Avicii By Avicii">
+                            <h4 id="nameSongAviciiByAvicii"></h4>
+                        </div>
+                        
+                    </div>
+                    <div class="image-port">
+                        <img src="./img/albums/night-days.jpg" alt="">
+                        <div class="hover-galery">
+                            <h3>The Days / Nights EP</h3>
+                            <img onclick="playMusicTheDaysNights()" src="./img/icons/boton-de-play.png" id="album-TheDaysNights"  alt="">
+                            <h4 id="nameSongTheDaysNights"></h4>
+                        </div>
+                        
+                    </div>
+                    <div class="image-port">
+                        <img src="./img/albums/stories.jpg" alt="">
+                        <div class="hover-galery">
+                            <h3>Stories</h3>
+                            <img onclick="playMusicStories()" src="./img/icons/boton-de-play.png" id="album-Stories" alt="">
+                            <h4 id="nameSongStories"></h4>
+                        </div>
+                        
+                    </div>
+                    <div class="image-port">
+                        <img src="./img/albums/tim.jpg" alt="">
+                        <div class="hover-galery">
+                            <h3>Tim</h3>
+                            <img onclick="playMusicTim()" src="./img/icons/boton-de-play.png" id="album-Tim" alt="">
+                            <h4 id="nameSongTim"></h4>
+                        </div>
+                    </div>
+                    <div class="image-port">
+                        <img src="./img/albums/true.jpg" alt="">
+                        <div class="hover-galery">
+                            <h3>True</h3>
+                            <img   onclick="playMusicTrue()"src="./img/icons/boton-de-play.png" id="album-True" alt="">
+                            <h4 id="nameSongTrue"></h4>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <section class="container" id="words">
+                <div class="words">
+                    <h2>TAKE A FEW MINUTES AND READ THE AVICII STORIES AND MEMORIES PEOPLE HAVE SHARED FROM ALL OVER THE WORLD.</h2>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="container-text-card">
+                            <h4>from CÉDRIC</h4>
+                            <p>
+                                Life is an unfair game, so unfair that we can barely concentrate on ourselves, and so we forget to pay attention to the people around us. I am sorry that you did not get the attention you deserved. You will be forever remembered as a great person that made life less unfair with your art. We miss you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-text-card">
+                            <h4>from Karen</h4>
+                            <p>
+                                LOVE LOVE LOVE HIM!!!! listen to him the whole time when im at school, and it gets me thru my day!! miss you bud!!! MAY HIS SONGS LIVE ON
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-text-card">
+                            <h4>from Kane</h4>
+                            <p>
+                                Sinto muito sua falta assim como todos os seus fans vc foi uma inspiração para mim todas as suas músicas inspiradoras me ajudaram em momentos difíceis obrigado thanks avicii vc estará em nosso corações e memórias Avicii forever 1989-2018
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="container-text-card">
+                            <h4>from YORICK</h4>
+                            <p>You inspired so many people with your music. If it wasn't for you, I wouldn't be the person I am today. I will always be grateful for that.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-text-card">
+                            <h4>from LOVE FROM SWEDEN</h4>
+                            <p>
+                                Dear Tim!! Its very empty without you!! Its like I am waiting for you to come back, but I know you don't!! I am going through all your music and you was a genious. I don't beleive there will be somebody like you again!! I miss you to the moon and back❤❤❤.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-text-card">
+                            <h4> from Harry</h4>
+                            <p>
+                                everytime i listen to wake me up, the nights, lonely together, hey brother, or honestly, any song by this talented man, i'm thrown back when days seemed filled with eternal happiness. thank you for giving me such wonderful memories.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="./js/js.js"></script>
+</body>
+</html>
